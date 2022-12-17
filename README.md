@@ -1,5 +1,5 @@
 # picoharp
-A generic device that implements the harp protocol in a raspberry pico device
+A generic harp device that runs the harp protocol on a raspberry pi pico
 
 # Getting started
 
