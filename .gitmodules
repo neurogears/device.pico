@@ -1,0 +1,3 @@
+[submodule "microharp"]
+	path = microharp
+	url = https://github.com/neurogears/microharp
