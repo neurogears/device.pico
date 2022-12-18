@@ -3,7 +3,7 @@ from micropython import const
 
 from microharp.device import HarpDevice
 from microharp.types import HarpTypes
-from microharp.register import ReadWriteReg, OperationalCtrlReg
+from microharp.register import ReadWriteReg, OperationalCtrlReg, ReadOnlyReg
 
 from picoregisters import AdcRegister, AnalogStreamStateRegister
 from picoregisters import (PwmDutycycleRegister, PwmFreqRegister,
@@ -51,7 +51,7 @@ class Pico(HarpDevice):
         registers = {
             # Core
             HarpDevice.R_DEVICE_NAME        : ReadWriteReg(HarpTypes.U8, tuple(b'picoharp')),  # noqa: E501
-            HarpDevice.R_WHO_AM_I           : (HarpTypes.U16, (123456,)),  # noqa: E501
+            HarpDevice.R_WHO_AM_I           : ReadOnlyReg(HarpTypes.U16, (123456,)),  # noqa: E501
 
             # Digital Input
             Pico.R_DIGITAL_INPUT            : HarpDigitalInputArrayRegister(gpio["DigitalInput"]),  # noqa: E501
