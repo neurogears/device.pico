@@ -1,6 +1,5 @@
 # Import standard library modules.
 import uasyncio
-from machine import Pin, SPI, ADC
 
 # Import SWC-IRFL library modules.
 import usbcdc
