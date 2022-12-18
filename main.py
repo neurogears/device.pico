@@ -7,7 +7,7 @@ import harpsync
 import picopinout as pinout
 from picodevice import Pico
 
-SYCN_CALIBRATION = 1000000 - 240  # Stores the calibration
+SYCN_CALIBRATION = 1050  # Stores the calibration
 # factor to align to a standard (Atmel's ATxmega) core
 # implementation of HARP.
 
