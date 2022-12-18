@@ -24,3 +24,6 @@ A generic harp device that runs the harp protocol on a raspberry pi pico
    2. Select the COM port. It should be the highest COM port of the two made available by connecting the pico.
    3. You can now send/receive `HarpMessages` to/from the `Device` operator.
 
+For more information on the harp protocol and its pico implementation check:
+ - [Harp Protocol](https://harp-tech.org/About/How-HARP-works/index.html)
+ - [Microharp](https://github.com/SainsburyWellcomeCentre/microharp)
