@@ -7,7 +7,7 @@ A generic harp device that runs the harp protocol on a raspberry pi pico
    1. Unplug your pico from the USB.
    2. Click the `BOOTSEL` button.
    3. While clicking the `BOOTSEL` button, reconnect your pico.
-   4. The device will be recognized as a general storage device. Simply drag and drop the firmware file [`./microharp/bin/firmware.uf2`](https://github.com/neurogears/microharp/blob/ee623f5dd82bded2a337b03fe4907185c3396ce9/bin/firmware.uf2) to the root folder.
+   4. The device will be recognized as a general storage device. Simply drag and drop the firmware file [`./firmware/microharp/bin/firmware.uf2`](https://github.com/neurogears/microharp/blob/ee623f5dd82bded2a337b03fe4907185c3396ce9/bin/firmware.uf2) to the root folder.
    5. The pico will reset and the new firmware is now uploaded. This step should only be necessary once.
 2. Upload the device code to the device:
    1. Install [Thonny](https://thonny.org/)
