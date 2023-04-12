@@ -1,6 +1,7 @@
 # picoharp
 A generic harp device that runs the harp protocol on a raspberry pi pico
-![Pico](./Assets/pcb.png)
+
+![Pico](./assets/pcb.png)
 
 # Getting started
 
